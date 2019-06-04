@@ -151,6 +151,9 @@
  */
 @property (nonatomic, assign) CGSize customAspectRatio;
 
+
+@property (nonatomic, assign) UIEdgeInsets cropRegionInsets;
+
 /**
  If this is set alongside `customAspectRatio`, the custom aspect ratio
  will be shown as a selectable choice in the list of aspect ratios. (Default is `nil`)
